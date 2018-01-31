@@ -70,6 +70,9 @@
                                 <li class="link">
                                     <a href="../modules/SampleModule.html" >SampleModule</a>
                                 </li>
+                                <li class="link">
+                                    <a href="../modules/TruncateModule.html" >TruncateModule</a>
+                                </li>
                         </ul>
                     </li>
             
@@ -87,55 +90,30 @@
                                 <li class="link">
                                     <a href="../components/AppComponent.html"  data-type="entity-link" class="active" >AppComponent</a>
                                 </li>
-                                <li class="link">
-                                    <a href="../components/SampleComponent.html" >SampleComponent</a>
-                                </li>
                         </ul>
                     </li>
             
-                    <li class="chapter">
-                        <div class="simple menu-toggler" data-toggle="collapse"
-                                data-target="#xs-directives-links"
-                            >
-                            <span class="fa fa-code"></span>
-                            <span>Directives</span>
-                            <span class="fa fa-angle-down"></span>
-                        </div>
-                        <ul class="links collapse "
-                                id="xs-directives-links"
-                            >
-                                <li class="link">
-                                    <a href="../directives/SampleDirective.html" >SampleDirective</a>
-                                </li>
-                        </ul>
-                    </li>
+            
+            
+            
             
             
                     <li class="chapter">
                         <div class="simple menu-toggler" data-toggle="collapse"
-                                data-target="#xs-injectables-links"
+                                data-target="#xs-pipes-links"
                             >
-                            <span class="fa fa-long-arrow-down"></span>
-                            <span>Injectables</span>
+                            <span class="fa fa-plus"></span>
+                            <span>Pipes</span>
                             <span class="fa fa-angle-down"></span>
                         </div>
                         <ul class="links collapse "
-                                id="xs-injectables-links"
+                                id="xs-pipes-links"
                             >
                                 <li class="link">
-                                    <a href="../injectables/SamplePipe.html" >SamplePipe</a>
-                                </li>
-                                <li class="link">
-                                    <a href="../injectables/SamplePipe.html" >SamplePipe</a>
-                                </li>
-                                <li class="link">
-                                    <a href="../injectables/SampleService.html" >SampleService</a>
+                                    <a href="../pipes/TruncatePipe.html" >TruncatePipe</a>
                                 </li>
                         </ul>
                     </li>
-            
-            
-            
             
             
             
@@ -204,6 +182,9 @@
                                        <li class="link">
                                            <a href="../modules/SampleModule.html" >SampleModule</a>
                                        </li>
+                                       <li class="link">
+                                           <a href="../modules/TruncateModule.html" >TruncateModule</a>
+                                       </li>
                                </ul>
                            </li>
                    
@@ -221,55 +202,30 @@
                                        <li class="link">
                                            <a href="../components/AppComponent.html"  data-type="entity-link" class="active" >AppComponent</a>
                                        </li>
-                                       <li class="link">
-                                           <a href="../components/SampleComponent.html" >SampleComponent</a>
-                                       </li>
                                </ul>
                            </li>
                    
-                           <li class="chapter">
-                               <div class="simple menu-toggler" data-toggle="collapse"
-                                       data-target="#directives-links"
-                   >
-                                   <span class="fa fa-code"></span>
-                                   <span>Directives</span>
-                                   <span class="fa fa-angle-down"></span>
-                               </div>
-                               <ul class="links collapse "
-                                       id="directives-links"
-                   >
-                                       <li class="link">
-                                           <a href="../directives/SampleDirective.html" >SampleDirective</a>
-                                       </li>
-                               </ul>
-                           </li>
+                   
+                   
+                   
                    
                    
                            <li class="chapter">
                                <div class="simple menu-toggler" data-toggle="collapse"
-                                       data-target="#injectables-links"
+                                       data-target="#pipes-links"
                    >
-                                   <span class="fa fa-long-arrow-down"></span>
-                                   <span>Injectables</span>
+                                   <span class="fa fa-plus"></span>
+                                   <span>Pipes</span>
                                    <span class="fa fa-angle-down"></span>
                                </div>
                                <ul class="links collapse "
-                                       id="injectables-links"
+                                       id="pipes-links"
                    >
                                        <li class="link">
-                                           <a href="../injectables/SamplePipe.html" >SamplePipe</a>
-                                       </li>
-                                       <li class="link">
-                                           <a href="../injectables/SamplePipe.html" >SamplePipe</a>
-                                       </li>
-                                       <li class="link">
-                                           <a href="../injectables/SampleService.html" >SampleService</a>
+                                           <a href="../pipes/TruncatePipe.html" >TruncatePipe</a>
                                        </li>
                                </ul>
                            </li>
-                   
-                   
-                   
                    
                    
                    
@@ -370,7 +326,8 @@ import { NgModule } from &#x27;@angular/core&#x27;;
 import { Component } from &#x27;@angular/core&#x27;;
 import { platformBrowserDynamic } from &#x27;@angular/platform-browser-dynamic&#x27;;
 
-import { SampleModule }  from &#x27;ngx-clever&#x27;;
+//import { SampleModule }  from &#x27;ngx-clever&#x27;;
+import { SampleModule }  from &#x27;../src/index&#x27;;
 
 @Component({
   selector: &#x27;app&#x27;,
@@ -414,8 +371,8 @@ platformBrowserDynamic().bootstrapModule(AppModule);
 <script src="../js/libs/deep-iterator.js"></script>
 <script>
         var COMPONENT_TEMPLATE = '<div><sample-component></sample-component></div>'
-    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app'},{'name': 'SampleComponent', 'selector': 'sample-component'}];
-    var DIRECTIVES = [{'name': 'SampleDirective', 'selector': '[sampleDirective]'}];
+    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app'}];
+    var DIRECTIVES = [];
     var ACTUAL_COMPONENT = {'name': 'AppComponent'};
 </script>
 <script src="../js/tree.js"></script>
