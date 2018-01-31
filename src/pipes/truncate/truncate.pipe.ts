@@ -5,6 +5,12 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class TruncatePipe implements PipeTransform {
 
+  /**
+   * Truncate characters
+   * @param value - (string) input value
+   * @param limit - (number) limit count to symbols
+   * @param trail - (string) trail symbols for truncate by default (...)
+   */
   transform(value: string, limit: number, trail: String = '...'): string {
     if (!value) {
         return '';
