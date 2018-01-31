@@ -316,12 +316,14 @@
             
                                     <tr>
                                         <td class="col-md-4">
-                                            <div class="io-line">Defined in <a href="" data-line="8" class="link-to-prism">src/pipes/truncate/truncate.pipe.ts:8</a></div>
+                                            <div class="io-line">Defined in <a href="" data-line="14" class="link-to-prism">src/pipes/truncate/truncate.pipe.ts:14</a></div>
                                         </td>
                                     </tr>
             
                             <tr>
                                 <td class="col-md-4">
+                                        <div class="io-description"><p>Truncate characters</p>
+            </div>
             
                                         <div class="io-description">
                                                 <b>Parameters :</b>
@@ -342,7 +344,10 @@
                                                               </td>
                                                               <td>
                                                               </td>
-                                                              <td></td>
+                                                              <td><ul>
+            <li>(string) input value</li>
+            </ul>
+            </td>
                                                             </tr>
                                                             <tr>
                                                               <td>limit</td>
@@ -351,7 +356,10 @@
                                                               </td>
                                                               <td>
                                                               </td>
-                                                              <td></td>
+                                                              <td><ul>
+            <li>(number) limit count to symbols</li>
+            </ul>
+            </td>
                                                             </tr>
                                                             <tr>
                                                               <td>trail</td>
@@ -360,7 +368,10 @@
                                                               </td>
                                                               <td>
                                                               </td>
-                                                              <td></td>
+                                                              <td><ul>
+            <li>(string) trail symbols for truncate by default (...)</li>
+            </ul>
+            </td>
                                                             </tr>
                                                     </tbody>
                                                 </table>
@@ -392,6 +403,12 @@
 })
 export class TruncatePipe implements PipeTransform {
 
+  /**
+   * Truncate characters
+   * @param value - (string) input value
+   * @param limit - (number) limit count to symbols
+   * @param trail - (string) trail symbols for truncate by default (...)
+   */
   transform(value: string, limit: number, trail: String &#x3D; &#x27;...&#x27;): string {
     if (!value) {
         return &#x27;&#x27;;
