@@ -3,9 +3,13 @@ node_modules/*
 npm-debug.log
 
 # TypeScript
-src/*.js
-src/*.map
-src/*.d.ts
+src/**/*.js
+src/**/*.map
+src/**/*.d.ts
+
+playground/*.js
+playground/*.map
+playground/*.d.ts
 
 # JetBrains
 .idea
