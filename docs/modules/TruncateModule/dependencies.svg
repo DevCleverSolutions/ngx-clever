@@ -21,15 +21,15 @@
 <polygon fill="#fb8072" stroke="transparent" points="406,-10 406,-30 426,-30 426,-10 406,-10"/>
 <text text-anchor="start" x="429.7258" y="-15.4" font-family="sans-serif" font-size="14.00" fill="#000000"> &#160;Exports</text>
 <g id="clust1" class="cluster">
-<title>cluster_SampleModule</title>
+<title>cluster_TruncateModule</title>
 <polygon fill="none" stroke="#000000" stroke-dasharray="1,5" points="185,-70 185,-268 311,-268 311,-70 185,-70"/>
 </g>
 <g id="clust2" class="cluster">
-<title>cluster_SampleModule_declarations</title>
+<title>cluster_TruncateModule_declarations</title>
 <polygon fill="none" stroke="#000000" points="195,-78 195,-130 301,-130 301,-78 195,-78"/>
 </g>
 <g id="clust5" class="cluster">
-<title>cluster_SampleModule_exports</title>
+<title>cluster_TruncateModule_exports</title>
 <polygon fill="none" stroke="#000000" points="193,-208 193,-260 303,-260 303,-208 193,-208"/>
 </g>
 <!-- TruncatePipe -->
@@ -38,15 +38,15 @@
 <polygon fill="#ffffb3" stroke="#000000" points="293.1361,-122 202.8639,-122 202.8639,-86 293.1361,-86 293.1361,-122"/>
 <text text-anchor="middle" x="248" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">TruncatePipe</text>
 </g>
-<!-- SampleModule -->
+<!-- TruncateModule -->
 <g id="node2" class="node">
-<title>SampleModule</title>
-<polygon fill="#8dd3c7" stroke="#000000" points="298.5438,-187 295.5438,-191 274.5438,-191 271.5438,-187 197.4562,-187 197.4562,-151 298.5438,-151 298.5438,-187"/>
-<text text-anchor="middle" x="248" y="-164.8" font-family="Times,serif" font-size="14.00" fill="#000000">SampleModule</text>
+<title>TruncateModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="302.7978,-187 299.7978,-191 278.7978,-191 275.7978,-187 193.2022,-187 193.2022,-151 302.7978,-151 302.7978,-187"/>
+<text text-anchor="middle" x="248" y="-164.8" font-family="Times,serif" font-size="14.00" fill="#000000">TruncateModule</text>
 </g>
-<!-- TruncatePipe&#45;&gt;SampleModule -->
+<!-- TruncatePipe&#45;&gt;TruncateModule -->
 <g id="edge1" class="edge">
-<title>TruncatePipe&#45;&gt;SampleModule</title>
+<title>TruncatePipe&#45;&gt;TruncateModule</title>
 <path fill="none" stroke="#000000" d="M248,-122.1061C248,-122.1061 248,-140.991 248,-140.991"/>
 <polygon fill="#000000" stroke="#000000" points="244.5001,-140.9909 248,-150.991 251.5001,-140.991 244.5001,-140.9909"/>
 </g>
@@ -56,9 +56,9 @@
 <polygon fill="#fb8072" stroke="#000000" points="295.1355,-252 200.8645,-252 200.8645,-216 295.1355,-216 295.1355,-252"/>
 <text text-anchor="middle" x="248" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">TruncatePipe </text>
 </g>
-<!-- SampleModule&#45;&gt;TruncatePipe  -->
+<!-- TruncateModule&#45;&gt;TruncatePipe  -->
 <g id="edge2" class="edge">
-<title>SampleModule&#45;&gt;TruncatePipe </title>
+<title>TruncateModule&#45;&gt;TruncatePipe </title>
 <path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M248,-187.1061C248,-187.1061 248,-205.991 248,-205.991"/>
 <polygon fill="#000000" stroke="#000000" points="244.5001,-205.9909 248,-215.991 251.5001,-205.991 244.5001,-205.9909"/>
 </g>
