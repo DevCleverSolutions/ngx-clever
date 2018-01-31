@@ -9,6 +9,7 @@
     "baseUrl": "",
     "types": [
       "jest",
+      "jasmine",
       "node"
     ]
   },
