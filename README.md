@@ -1,4 +1,5 @@
-# NgxCleverLibApp
+# NgxClever
+[![npm version](https://badge.fury.io/js/ngx-clever.svg)](https://www.npmjs.com/package/ngx-clever)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.3.
 
