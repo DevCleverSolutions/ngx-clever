@@ -1,5 +1,7 @@
 # NgxClever
 [![npm version](https://badge.fury.io/js/ngx-clever.svg)](https://www.npmjs.com/package/ngx-clever)
+[![npm downloads](https://img.shields.io/npm/dt/ngx-clever.svg)](https://www.npmjs.org/package/ngx-clever)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](http://opensource.org/licenses/MIT)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.3.
 
