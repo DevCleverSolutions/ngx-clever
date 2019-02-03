@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NgxCleverLibComponent } from './ngx-clever-lib.component';
+import { NgxCleverComponent } from './ngx-clever.component';
 
-describe('NgxCleverLibComponent', () => {
-  let component: NgxCleverLibComponent;
-  let fixture: ComponentFixture<NgxCleverLibComponent>;
+describe('NgxCleverComponent', () => {
+  let component: NgxCleverComponent;
+  let fixture: ComponentFixture<NgxCleverComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ NgxCleverLibComponent ]
+      declarations: [ NgxCleverComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(NgxCleverLibComponent);
+    fixture = TestBed.createComponent(NgxCleverComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,15 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'ngx-ngx-clever-lib',
+  selector: 'ngx-ngxClever',
   template: `
     <p>
-      ngx-clever-lib works!
+      ngx-clever works!
     </p>
   `,
   styles: []
 })
-export class NgxCleverLibComponent implements OnInit {
+export class NgxCleverComponent implements OnInit {
 
   constructor() { }
 

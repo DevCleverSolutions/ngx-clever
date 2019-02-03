@@ -18,11 +18,11 @@
       "dom"
     ],
     "paths": {
-      "ngx-clever-lib": [
-        "dist/ngx-clever-lib"
+      "ngx-clever": [
+        "dist/ngx-clever"
       ],
-      "ngx-clever-lib/*": [
-        "dist/ngx-clever-lib/*"
+      "ngx-clever/*": [
+        "dist/ngx-clever/*"
       ]
     }
   }
