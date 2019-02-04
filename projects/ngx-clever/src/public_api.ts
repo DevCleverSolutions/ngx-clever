@@ -5,3 +5,5 @@
 export * from './lib/ngx-clever.service';
 export * from './lib/ngx-clever.component';
 export * from './lib/ngx-clever.module';
+
+export * from './lib/pipes/public_api';
