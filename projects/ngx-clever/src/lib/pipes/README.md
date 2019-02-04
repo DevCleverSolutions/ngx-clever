@@ -1,0 +1,5 @@
+# NgxClever | Pipes
+
+## Truncate
+
+todo...
