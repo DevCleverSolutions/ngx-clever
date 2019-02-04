@@ -3,8 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
-import { PipesModule } from 'ngx-clever/pipes';
+import { PipesModule } from 'ngx-clever';
 
 @NgModule({
   declarations: [
